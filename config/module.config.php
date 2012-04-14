@@ -19,8 +19,6 @@ return array(
         'instance' => array(
             'alias' => array(
                 'cache' => 'Zend\Cache\Storage\Adapter',
-                'scraper' => 'Diggin\Scraper\Scraper',
-                'wedata-storage' => 'Diggin\Service\Wedata\Storage\Cache'
             ),
             'cache' => array(
                 'parameters' => array('cfg' => array(
